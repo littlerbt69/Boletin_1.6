@@ -6,7 +6,7 @@ public class Ej4 {
         Scanner teclado = new Scanner(System.in);
         Random random = new Random();
 
-        int numeroSecreto = random.nextInt(100) + 1;
+        int numeroSecreto = random.nextInt(1, 100);
         int intentos = 0;
         final int maxIntentos = 5;
 
